@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-HANT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="阿衛不動產社群，提供最新房地產資訊與物件推薦，與我們的LINE社群互動交流。">
+    <title>阿衛不動產社群</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 確保有一個CSS文件來處理樣式 -->
+</head>
+<body>
+    <!-- 導航欄 -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#properties">物件展示</a></li>
+                <li><a href="#news">新聞與趨勢</a></li>
+                <li><a href="#join">加入我們</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 首頁內容 -->
+    <section id="home">
+        <h1>歡迎來到阿衛不動產社群</h1>
+        <p>我們專注於提供最新的房地產資訊與市場趨勢，無論您是要買房、賣房、租屋或投資，我們都能幫助您找到理想的選擇。</p>
+        <h2>今日熱門推薦物件</h2>
+        <ul>
+            <li>宜蘭市中心三房兩廳 <a href="#property1">詳細資訊</a></li>
+            <li>頭城低總價透天店面 <a href="#property2">詳細資訊</a></li>
+            <li>礁溪德陽帝國溫泉頂樓套房 <a href="#property3">詳細資訊</a></li>
+        </ul>
+        <p><a href="#join">點此加入LINE社群</a></p>
+    </section>
+
+    <!-- 物件展示 -->
+    <section id="properties">
+        <h2>最新物件展示</h2>
+        <div id="property1">
+            <h3>宜蘭市中心稀有三房物件</h3>
+            <p>價格：898萬 | 格局：三房兩廳兩衛 | 建物坪數：39.17坪</p>
+            <a href="https://is-m.ycut.com.tw/magent/CaseInfo.aspx?guid=835f7b80-ef76-4899-b54e-6a2d11dae7d8" target="_blank">查看詳細資訊</a>
+        </div>
+        <div id="property2">
+            <h3>頭城省道低總價透天店面</h3>
+            <p>價格：768萬 | 地址：宜蘭縣頭城鎮青雲路二段647號</p>
+            <a href="https://is-m.ycut.com.tw/magent/CaseInfo.aspx?guid=1f7a27b8-8deb-4f8d-97a7-0f7ead025a69" target="_blank">查看詳細資訊</a>
+        </div>
+        <div id="property3">
+            <h3>礁溪德陽帝國溫泉頂樓套房</h3>
+            <p>價格：258萬 | 格局：一房一廳</p>
+            <a href="https://is-m.ycut.com.tw/magent/CaseInfo.aspx?guid=05fc4376-d193-497c-974f-366c2b6994f7" target="_blank">查看詳細資訊</a>
+        </div>
+    </section>
+
+    <!-- 新聞與市場趨勢 -->
+    <section id="news">
+        <h2>新聞與市場趨勢</h2>
+        <article>
+            <h3>台灣房地產四大指數創新高</h3>
+            <p>台灣六都移轉棟數創13期新高，顯示出房地產市場的強勁動能。403地震後，租屋市場出現波動，租金上漲成為趨勢。</p>
+            <a href="#">詳細閱讀</a>
+        </article>
+        <article>
+            <h3>宜蘭房價趨勢分析</h3>
+            <p>雙北地區房價高漲，導致部分購房者轉向宜蘭地區。宜蘭的高性價比物件成為投資者和自住者的首選。</p>
+            <a href="#">詳細閱讀</a>
+        </article>
+    </section>
+
+    <!-- 加入LINE社群 -->
+    <section id="join">
+        <h2>加入我們的LINE社群</h2>
+        <p>在LINE社群中，您可以獲得第一手的房地產資訊與投資機會，並與其他買賣雙方互動交流。</p>
+        <a href="https://line.me/ti/g2/wWIcowt8ErHfiYC7ovKUeZf1VDAA2-tYxlhPXA" target="_blank">點此加入LINE社群</a>
+    </section>
+
+    <!-- 聯絡我們 -->
+    <section id="contact">
+        <h2>聯絡我們</h2>
+        <p>如有任何問題或需求，請隨時聯絡我們：</p>
+        <ul>
+            <li>聯絡人：林其衞（阿衛）</li>
+            <li>手機：0928880392</li>
+            <li>Email：example@email.com</li>
+            <li><a href="https://line.me/ti/p/YOUR_LINE_ID">添加我們的LINE好友</a></li>
+        </ul>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer>
+        <p>&copy; 2024 阿衛不動產社群. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
